@@ -7,6 +7,7 @@ nav {
 
     align-items: center;
     justify-content: space-between;
+    margin: 0, 200px;
 
 }
 
@@ -30,11 +31,17 @@ nav a {
 .primary-button {
     border-radius: 5px;
     background: #fd6e0a;
+    border: 0px;
+    color: #fff8f3;
+    width: 700;
+    font-size: 35px;
+    padding: 15px 35px;
+
 }
 
 .nav-title {
-    font-weight: 800;
-    font-size: 45px;
+    font-weight: 700;
+    font-size: 20px;
 
 }
 
@@ -42,4 +49,13 @@ nav a {
     background-color: #fff8f3;
 
 }
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 450px;
 }
