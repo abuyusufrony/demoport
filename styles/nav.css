@@ -51,7 +51,7 @@ nav a {
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
     align-items: center;
 }
@@ -79,5 +79,20 @@ nav a {
     text-align: center;
     color: #757575;
     font-size: 18px;
+
+}
+
+main {
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
 
 }
